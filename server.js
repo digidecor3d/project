@@ -6,7 +6,7 @@ app.listen('8000',function () {
     console.log("server runing at http://localhost:7000")
 })
 app.use('/',function (req,res,next) {
-   console.log('hello world7777777777777777')
+   console.log('hello worldfor nanannann')
     next()
 })
 app.use('/',function (req,res,next) {
