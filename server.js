@@ -9,6 +9,10 @@ app.use('/',function (req,res,next) {
    console.log('hello world')
     next()
 })
+app.use('/',function (req,res,next) {
+    console.log('hello world3133')
+     next()
+ })
 app.get('/',function (req,res) {
     res.send('hello world')
 })
